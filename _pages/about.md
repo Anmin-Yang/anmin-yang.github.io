@@ -2,25 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: （杨安民）
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address:
+    <p> I study natural intelligence</p>
+    <p>and stupidity.</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a second-year master student in the MA program of Computational Social Science at `The University of Chicago`. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to relocating to the United States, I worked with [`Dr. Jia Liu`](https://brain.tsinghua.edu.cn/en/info/1010/1010.htm) at `Tsinghua University` investigating the **visual illusions** of humans using deep neural networks. Subsequently, I had the opportunity to work alongside [`Dr. Ke Zhou`](http://bnupsych.bnu.edu.cn/tabid/324/ArticleID/5045/frtid/307/Default.aspx) and [`Dr. Liqin Zhou`](https://psych.bnu.edu.cn/szdw/zrjs/jsa/zlq/index.htm) at `Beijing Normal University`, focusing on two research areas: **facial expression** representation in deep neural networks and the **attention** mechanisms in humans.
