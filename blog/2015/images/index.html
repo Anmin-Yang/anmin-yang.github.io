@@ -383,9 +383,8 @@ Simply add <code class="language-plaintext highlighter-rouge">data-zoomable</cod
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-9NJECFJWJ2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(){ window.dataLayer.push(arguments); }
     gtag('js', new Date());
-  
     gtag('config', 'G-9NJECFJWJ2');
   </script>
     
