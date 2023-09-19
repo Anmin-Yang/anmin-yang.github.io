@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Human-like facial experession in DCNN | Anmin  Yang</title>
+    <title>project 5 | Anmin  Yang</title>
     <meta name="author" content="Anmin  Yang">
-    <meta name="description" content="Atifical Neural Network as a tool to probe the necessity of experience in facial expression representation">
+    <meta name="description" content="a project with a background image">
     <meta name="keywords" content="anmin-yang">
 
 
@@ -38,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/my_avatar.JPG">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://anmin-yang.github.io/projects/facial_expression/">
+    <link rel="canonical" href="https://anmin-yang.github.io/projects/5_project/">
 
     <!-- Dark Mode -->
     
@@ -117,14 +117,24 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Human-like facial experession in DCNN</h1>
-            <p class="post-description">Atifical Neural Network as a tool to probe the necessity of experience in facial expression representation</p>
+            <h1 class="post-title">project 5</h1>
+            <p class="post-description">a project with a background image</p>
           </header>
 
           <article>
-            <p>Face <strong>identity</strong> and <strong>expression</strong> have been traditionally viewed as separate process in the brain, evidenced by patient cases and neuroimaging studies (FFA/OFA VS STS). However, incresing evidence suggests that both informantion can be decoded from the ROIs (for example, FFA/OFA have been regarded as face identity region, but can also process facial expression information).</p>
+            <p>Every project has a beautiful feature showcase page.
+It’s easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.</p>
 
-<p>In this paper, we examine whether the <strong>interdependence</strong> of face identity and expression being is nessary from a computatioanl point of view. We used VGG-face, a network optimized for facial identity recognition, as the model to simulate cognitive process in the brain(Fig. 1).</p>
+<p>To give your project a background in the portfolio page, just add the img tag to the front matter like so:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: page
+title: project
+description: a project with a background image
+img: /assets/img/12.jpg
+---
+</code></pre></div></div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -132,13 +142,49 @@
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/facial_expression/fig1_network-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/facial_expression/fig1_network-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/facial_expression/fig1_network-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/1-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/1-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/1-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/projects/facial_expression/fig1_network.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="VGG-fece structure" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/1.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/3-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/3-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/3-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/3.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/5-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/5-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/5-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/5.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -147,24 +193,21 @@
     </div>
 </div>
 <div class="caption">
-    Fig. 1 VGG-fece structure
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
-
-<p>We found <strong>expression-selective units</strong> in VGG-face, and more importantly, those units were <strong>human-like</strong>, which was evidenced by similar confusion matrix(Fig. 2) compared to human subjects and clear categorical perception of morphed expression continua, a hallmark of human expression recognition property.</p>
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/facial_expression/fig2_confusion_matrix-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/facial_expression/fig2_confusion_matrix-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/facial_expression/fig2_confusion_matrix-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/5-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/5-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/5-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/projects/facial_expression/fig2_confusion_matrix.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="confusion matrix" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/5.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -173,22 +216,43 @@
     </div>
 </div>
 <div class="caption">
-    Fig. 2 Confusion matrix of pretrained VGG-face and human
+    This image can also have a caption. It's like magic.
 </div>
+<p>You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, <em>bled</em> for your project, and then… you reveal its glory in the next row of images.</p>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
         <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/facial_expression/fig3_categorical_perception-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/facial_expression/fig3_categorical_perception-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/facial_expression/fig3_categorical_perception-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/6-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/6-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/6-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/projects/facial_expression/fig3_categorical_perception.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="contiua perception" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/6.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/11-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/11-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/11-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/11.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -197,53 +261,24 @@
     </div>
 </div>
 <div class="caption">
-    Fig. 3 Categorical perception of facial expression contiua
+    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-<p>Different from the biological system, DNN allows us to answer the <strong>‘why’ quesiton</strong> beyond phenomena description. By altering model architecture, training data, objective function or learning algorithm, we can test the theories that aim to explain behavioral and neural phenomena.</p>
+<p>The code is simple.
+Just wrap your images with <code class="language-plaintext highlighter-rouge">&lt;div class="col-sm"&gt;</code> and place them inside <code class="language-plaintext highlighter-rouge">&lt;div class="row"&gt;</code> (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" rel="external nofollow noopener" target="_blank">Bootstrap Grid</a> system).
+To make images responsive, add <code class="language-plaintext highlighter-rouge">img-fluid</code> class to each; for rounded corners and shadows use <code class="language-plaintext highlighter-rouge">rounded</code> and <code class="language-plaintext highlighter-rouge">z-depth-1</code> classes.
+Here’s the code for the last row of images above:</p>
 
-<p>In this study, we also probed expression-selective units in the following networks:</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row justify-content-sm-center"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-8 mt-3 mt-md-0"</span><span class="nt">&gt;</span>
+        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-4 mt-3 mt-md-0"</span><span class="nt">&gt;</span>
+        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
 
-<ul>
-  <li>VGG-16, same architecture with VGG-face, but optimized for object recognition
-    <ul>
-      <li>to test whether <strong>domain-specific</strong> or <strong>domain-general</strong> experience is necessary for facial expression representation</li>
-    </ul>
-  </li>
-  <li>Randomized VGG-face
-    <ul>
-      <li>to test the contribution of the architecture</li>
-    </ul>
-  </li>
-</ul>
-
-<p>Remarkably, while expression-selective units can be found in both networks, they are not human-like (Fig. 4), which highlights the domain-specific experience for facial expression representation.</p>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/facial_expression/fig4_other_networks-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/facial_expression/fig4_other_networks-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/facial_expression/fig4_other_networks-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/projects/facial_expression/fig4_other_networks.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="other networks" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-</div>
-<div class="caption">
-    Fig. 4 Expression selective units in VGG-16 and randomrized VGG-faced are not human-like
-</div>
-
-<p><strong>See our work</strong> on <a href="https://www.science.org/doi/full/10.1126/sciadv.abj4383" rel="external nofollow noopener" target="_blank">Science Advance</a>.</p>
 
           </article>
 
