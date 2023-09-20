@@ -63,4 +63,4 @@ Remarkably, while expression-selective units can be found in both networks, they
 
 
 
-**See our work** on [Science Advance](https://www.science.org/doi/full/10.1126/sciadv.abj4383). 
+**See our work** on [Science Advances](https://www.science.org/doi/full/10.1126/sciadv.abj4383). 
