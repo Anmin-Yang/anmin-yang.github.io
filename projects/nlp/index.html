@@ -122,7 +122,131 @@
           </header>
 
           <article>
-            <p>Under Construction…</p>
+            <p>Psychology has a longstanding belief that the words and content one chooses to express are not random but rather a reflection of the hidden state of one’s mental world. The famous <strong>Freudian Slip</strong> suggests that a verbal or memory mistake is believed to reveal an unconscious belief, thought, or motive. The <strong>Thematic Apperception Test (TAT)</strong> follows a similar assumption by analyzing one’s thought to an ambiguous or open-end stimuli.</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/nlp/fig1_freudian-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/nlp/fig1_freudian-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/nlp/fig1_freudian-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/nlp/fig1_freudian.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="freudian slip" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/nlp/fig2_TAT-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/nlp/fig2_TAT-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/nlp/fig2_TAT-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/nlp/fig2_TAT.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="TAT" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Left, Freudian Slip. Right, Thematic Apperception Test.
+</div>
+
+<p>While those methods have deep roots in psychology, they are often accused of <strong>bad inter-rater reliability</strong> and <strong>doubtful validity</strong>. On the other hand, although questionaires are considered the standard of clinical diagnosis, for particular cohorts, in our case, adolescents, the self-report measure may be potentially biased due to factors such as limited language skills, life experiences, cognitive impairments, and the social expectancy bias. This study aims to find more <strong>ecological</strong>, age-appropriate and psychologically appropriate depression detection methods for adolescents.</p>
+
+<p>We used students’ compositions written in the classroom to detect depression among adolescents.</p>
+
+<p>For <strong>feature extraction</strong>, we employed both theory-based and data-driven approach:</p>
+
+<ul>
+  <li>LIWC (Linguistic Inquiry and Word Count)</li>
+  <li>Word2Vec</li>
+</ul>
+
+<p>For <strong>classifiers</strong>, we used:</p>
+
+<ul>
+  <li>classic machine learning approach
+    <ul>
+      <li>Logistic Regression</li>
+      <li>SVM</li>
+    </ul>
+  </li>
+  <li>deep neural networks
+    <ul>
+      <li>TextCNN</li>
+      <li>TextRNN</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/nlp/paradigm-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/nlp/paradigm-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/nlp/paradigm-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/nlp/paradigm.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="scheme" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Schematic illustration of the computational models.
+</div>
+
+<p>The textRNN model achieved the best performance with F-measure at 0.74.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/nlp/fig3_rnn-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/nlp/fig3_rnn-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/nlp/fig3_rnn-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/nlp/fig3_rnn.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="rnn" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Performance of TextCNN and TextRNN
+</div>
+
+<p>Our research highlights the potential of natural language processing techniques in detecting depressive tendencies in young populations at school.</p>
+
+<p><strong>See our work</strong> at <a href="https://psyarxiv.com/5f9nb/" rel="external nofollow noopener" target="_blank">PsyArXiv</a></p>
 
           </article>
 
