@@ -122,9 +122,161 @@
           </header>
 
           <article>
-            <p>Under Construction…</p>
+            <p>Wojciulik &amp; Kanwisher’s research(1) suggests a common involvement of the parietal cortex in visual attention (Fig. 1). In this early research, they recorded serveral participants’ fMRI data and employed a univariate analysis. In the present study, we revisited the same paradigm (Fig. 2a, b) with two advancements:</p>
 
-<p>I would also like to inquire whether this course is legitimate  as the instructor mentioned it’s not a for-credit class, despite the system indicating it has 100 units.</p>
+<ul>
+  <li>a larger cohort of participants (\(n=235\))</li>
+  <li>a <strong>between-subject</strong> whole brain machine learning approach (Fig. 2c)</li>
+</ul>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/attsig/fig2_old_study-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/attsig/fig2_old_study-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/attsig/fig2_old_study-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/attsig/fig2_old_study.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="1999 Neuron" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Fig. 1 Common involvement of the parietal cortex in visual attention, from Wojciulik &amp; Kanwisher, 1999
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/attsig/fig1_pipeline-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/attsig/fig1_pipeline-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/attsig/fig1_pipeline-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/attsig/fig1_pipeline.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="pipeline" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Fig. 2 Experiment paradigm and data analysis pipeline
+</div>
+
+<p>We replicated the same behavioral pattern (Fig. 3a) and trained two predictive models that can not only differentiate conditions in <strong>intra-task</strong> scenarios, and more interstingly, in <strong>inter-task</strong> scenarios (Fig. 3b). This suggests both shared and distinct components exit in the <strong>FAS</strong> (feature attention signature) and <strong>SAS</strong> (spatial attention signature).</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/attsig/fig3_model_performance-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/attsig/fig3_model_performance-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/attsig/fig3_model_performance-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/attsig/fig3_model_performance.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="model performance" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Fig. 3 Behavioral and model performance
+</div>
+
+<p>Fig. 4a shows the FAS and SAS at the <strong>whole brain level</strong>. While univariate analysis applies a boolean map with a cut-off p-value to identify the conjunction regions as the common neural subtrate, we argue that even the same region may have different pattern under different mental processes (Fig. 4a, right). When summarized at the <strong>network level</strong>, different portfolios emerge (Fig. 4b, left). More interesting, when retrained the predictive model on a network basis, the most prominent regions associated with the FAS were the dorsal and ventral attention networks, whereas the SAS was predominantly distributed within the visual network (Fig. 4c).</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/attsig/fig4_whole_brain-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/attsig/fig4_whole_brain-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/attsig/fig4_whole_brain-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/attsig/fig4_whole_brain.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="whole brain and network" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Fig. 4 FAS and SAS at whole brain and network scale
+</div>
+
+<p>As we have built statistical models, we further performed the following two analyses at the <strong>cluster level</strong>:</p>
+
+<ul>
+  <li>Single-cluster Analysis
+    <ul>
+      <li>to test the sufficiency of one cluster</li>
+    </ul>
+  </li>
+  <li>‘Virtual Lesion’ Analysis
+    <ul>
+      <li>to test the necessity of one cluster</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The single-cluster analysis and the “virtual lesion” analysis revealed both shared and distinct representation patterns in FA and SA (supporting table not shown), along with the engagement of a distributed brain network in processing both forms of attention (Fig. 5a).</p>
+
+<p>The distributed nature is further confirmed at the <strong>voxel level</strong> (Fig.5 b).</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/projects/attsig/fig5_cluster-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/projects/attsig/fig5_cluster-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/projects/attsig/fig5_cluster-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/attsig/fig5_cluster.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="cluster and voxel" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Fig. 5 Cluster and voxel level analysis
+</div>
+
+<p>Our study challenges traditional network-centric models of attention, emphasizing <strong>distributed</strong> brain functioning in attention, and provides comprehensive evidence for shared and distinct neural mechanisms underlying FA and SA.</p>
+
+<p>(1) Wojciulik, E., &amp; Kanwisher, N. (1999). The generality of parietal involvement in visual attention. Neuron, 23(4), 747-764.</p>
+
+<p><strong>See our work</strong> at <a href="https://www.biorxiv.org/content/10.1101/2023.08.20.554014v1.abstract" rel="external nofollow noopener" target="_blank">bioRxiv</a></p>
 
           </article>
 
