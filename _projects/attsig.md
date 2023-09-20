@@ -8,3 +8,5 @@ category: past
 ---
 
 Under Construction...
+
+I would also like to inquire whether this course is legitimate  as the instructor mentioned it's not a for-credit class, despite the system indicating it has 100 units.

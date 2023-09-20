@@ -9,7 +9,7 @@ category: past
 
 Face **identity** and **expression** have been traditionally viewed as separate process in the brain, evidenced by patient cases and neuroimaging studies (FFA/OFA VS STS). However, incresing evidence suggests that both informantion can be decoded from the ROIs (for example, FFA/OFA have been regarded as face identity region, but can also process facial expression information).
 
-In this paper, we examine whether the **interdependence** of face identity and expression being is nessary from a computatioanl point of view. We used VGG-face, a network optimized for facial identity recognition, as the model to simulate cognitive process in the brain(Fig. 1). 
+In this paper, we examine whether the **interdependence** of face identity and expression is nessary from a computatioanl point of view. We used VGG-face, a network optimized for facial identity recognition, as the model to simulate cognitive process in the brain(Fig. 1). 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
