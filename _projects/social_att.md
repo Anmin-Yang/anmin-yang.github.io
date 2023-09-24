@@ -26,7 +26,7 @@ We found main effect of cue validity in both social and exogenous attention (Fig
     </div>
 </div>
 <div class="caption">
-    Fig. 1 Main effect of cue validity
+    Fig. 2 Main effect of cue validity
 </div>
 
 When the cue validity was noninformative (0.5) or strongly predictive (0.8), there was no significant difference in the attentional effects between social attention and exogenous attention (Fig. 3).
@@ -39,7 +39,7 @@ More importantly, however, when the cue validity was 0.2 (i. e., counterpredicti
     </div>
 </div>
 <div class="caption">
-    Fig. 1 Difference in RT against cue validity
+    Fig. 3 Difference in RT against cue validity
 </div>
 
 This paper is published on *Progress in Biochemistry and Biophysics* in Chinese, and is available upon request. 
